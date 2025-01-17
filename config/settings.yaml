@@ -1,0 +1,52 @@
+# MAIN SETTINGS #
+referral_code: 9F7D06CF
+threads: 3
+
+mint_rpc_url: https://rpc.mintchain.io
+arb_rpc_url: https://arbitrum.llamarpc.com
+
+min_delay_before_start: 1 # seconds
+max_delay_before_start: 5 # seconds
+
+spin_turntable_by_percentage_of_energy: 0 # 0-100
+shuffle_accounts: True # True/False
+# MAIN SETTINGS #
+#
+#
+#
+## MINT NFTs ##
+# available: mint_comm_nft, mint_make_nft_great_again, mint_flag, mint_shop, mint_air3, mint_supermint, mint_owlto_summer_nft, mint_omnihub_summer_nft, mint_summer_nft, mint_vip3_nft, mint_green_id
+mint_random_all_nfts:
+  [
+    "mint_make_nft_great_again",
+    "mint_flag",
+    "mint_shop",
+    "mint_air3",
+    "mint_supermint",
+    "mint_owlto_summer_nft",
+    "mint_omnihub_summer_nft",
+    "mint_summer_nft",
+    "mint_vip3_nft",
+    "mint_green_id",
+    "mint_comm_nft",
+  ]
+delay_between_mint_min: 10 # seconds
+delay_between_mint_max: 20 # seconds
+## MINT NFTs ##
+#
+#
+#
+#
+## COMET BRIDGE ## Brigde ETH => Mint
+comet_bridge_wallet: "" # private key or mnemonic from which script will send ETH to bridge to your multiwallet
+comet_bridge_amount_min: 0.0015 # ETH
+comet_bridge_amount_max: 0.002 # ETH
+## COMET BRIDGE ##
+#
+#
+#
+#
+## FIND AND STEAL OTHER TREES REWARDS SETTINGS ## Cấu hình ăn trộm
+find_and_steal_percentage_range_start: 25 ## start of the percentage range of trees to search for rewards (%)
+find_and_steal_percentage_range_end: 50 ## end of the percentage range of trees to search for rewards (%)
+find_and_steal_min_amount: 500
